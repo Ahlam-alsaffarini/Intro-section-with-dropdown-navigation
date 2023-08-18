@@ -1,0 +1,58 @@
+body.dark {
+  background-color: #1f2937;
+}
+.header .logo img.dark {
+  filter: invert(1);
+}
+
+.header .nav.dark {
+  background-color: #1f2937;
+}
+.header .toggle-menu span.dark {
+  background-color: white;
+}
+.header .first-content button.dark {
+  color: #e6e6e6;
+}
+
+.header .first-content ul.dark {
+  background-color: #20202054;
+  color: white;
+  box-shadow: 0px 6px 20px #717171;
+}
+@media (max-width: 991px) {
+  .header .first-content ul.dark {
+    color: white;
+    box-shadow: none;
+    background-color: inherit;
+  }
+}
+.header .second-content li a.dark {
+  color: #e6e6e6;
+}
+.header .first-content button.dark:hover,
+.header .first-content ul li a.dark:hover,
+.header li a.dark:hover {
+  color: #ffc107;
+  transition: 0.3s;
+}
+
+li a.btn.dark:hover {
+  background-color: #ff9d00;
+  color: white;
+}
+.main .content ul li a.dark {
+  color: var(--Almost-White);
+}
+.main .content h1.dark {
+  color: white;
+}
+.main .content p.dark {
+  color: hsl(0deg 0% 72.92%);
+}
+.main .img-size.dark {
+  mix-blend-mode: plus-lighter;
+}
+.main .mobile-img.dark {
+  mix-blend-mode: plus-lighter;
+}
